@@ -1,6 +1,6 @@
 name: 打包Windows应用
 
-
+# 这是一个GitHub Actions工作流配置文件，用于在Windows环境中自动打包Python应用程序
 on:
   push:
     branches: [ main ]  # 当推送到main分支时触发
