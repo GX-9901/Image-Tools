@@ -1,4 +1,7 @@
 name: 打包Windows应用(带版本号)
+# 在jobs之前添加权限配置
+permissions:
+  contents: write  # 明确给予写入仓库内容的权限
 
 on:
   push:
